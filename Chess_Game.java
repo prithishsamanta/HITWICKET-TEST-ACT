@@ -4,6 +4,16 @@ import java.lang.*;
 
 public class Chess_Game {
     public static void main(String args[]){
+
+
+        System.out.println("   -------------------------  INSTRUCTIONS  ------------------------- \n\n");
+        System.out.println("   This game is similar to a chess game, where there are 2 players.");
+        System.out.println("   Each player gets 5 pawns (i.e. P1, P2, P3, P4, P5),");
+        System.out.println("   and these can move only 1 space at a time, either Front(F), Back(B), Left(L) or Right(R).");
+        System.out.println("   To enter move in this format: <PAWN_NAME>:<DIRECTION> (eg:- P1:F, P2:R, H1:FR, H2, BL)");
+        System.out.println("\n\n   ------------------------------------------------------------------ \n\n");
+        
+
         Scanner sc = new Scanner(System.in);
         String[][] board = new String[5][5];
         
